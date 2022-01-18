@@ -1,0 +1,172 @@
+
+html{
+    box-sizing: border-box;
+}
+
+header{
+   
+    background-color: #1f2937;
+    height: 20%;
+    
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    
+
+   
+}
+.left{
+    color: white;
+    padding: 20px 15px 20px 15px;
+}
+ul{
+    display: flex;
+    color:white;
+    list-style-type: none;
+    gap: 1em;
+    padding: 0 20px;
+    
+}
+
+.hero{
+    background-color: #1f2937;
+    height:20%;
+    margin-top: -22;
+    display:flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    
+}
+
+
+
+.hero-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color:#f9faf8;
+    
+}
+
+.hero-box.hero-1{
+    width:800px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding:25px;
+    
+}
+.hero-box.hero-2{
+    background-color: grey;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-1 p{
+    color:#f9faf8;
+    
+}
+
+.btn{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.box{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.box-empty{
+    height:150px;
+    width: 150px;;
+    border: 4px solid #3882f6;
+    margin: 25px;
+}
+
+.bx{
+    display:flex;
+    justify-content: space-evenly;
+}
+.text{
+    width:150px;
+    text-align: center;
+    margin:0 25px;
+   
+}
+
+.qt{
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    height: 25%;
+    font-size: 36px;
+    justify-content: center;
+    background-color: #e5e7eb;
+    text-align: center;
+    font-weight: light;
+    font:italic;
+    color:#1f2937;
+    padding:20px;
+    
+}
+
+.qt .author{
+    align-self: flex-end;
+    padding:30px;
+    font-size: 24px;
+}
+
+.cta{
+    display:flex;
+    background-color: #3882f6;
+    margin: 5% 20%;
+    height:20%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cta-text{
+    border:20%;
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+    font-style: normal;
+    
+}
+
+h3{
+    text-align: left;
+}
+.cta .btn{
+    width:10%;
+    align-self: center;
+    margin-left: 20%;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    height: 15%;
+    color:white;
+}
